@@ -80,6 +80,7 @@ h3,h4{font-size:17px;line-height:1.5;font-weight:600;margin:0 0 5px;letter-spaci
 .timeline-row p{font-size:14px;line-height:1.75;margin:0;color:var(--muted)}
 .timeline-row .institution{color:var(--text)}
 .timeline-row .role-meta{font-size:12px;margin-top:3px}
+.timeline-row .experience-note{font-size:12px;margin-top:5px}
 
 .research-row{padding:22px 0}
 .project-highlights{margin-top:31px;padding-top:24px;border-top:1px solid var(--line)}
