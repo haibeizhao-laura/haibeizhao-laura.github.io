@@ -82,6 +82,19 @@ h3,h4{font-size:17px;line-height:1.5;font-weight:600;margin:0 0 5px;letter-spaci
 .timeline-row .institution{color:var(--text)}
 .timeline-row .role-meta{font-size:12px;margin-top:3px}
 .timeline-row .experience-note{font-size:12px;margin-top:5px}
+.entry-heading{display:flex;align-items:baseline;flex-wrap:wrap;column-gap:12px;row-gap:3px;margin-bottom:5px}
+.entry-heading h3{margin:0}
+.topic-tags{display:inline-flex;align-items:center;flex-wrap:wrap;gap:5px;list-style:none;margin:0;padding:0}
+.topic-tag{display:inline-flex;align-items:center;white-space:nowrap;padding:1px 7px;border-radius:3px;font-size:10px;line-height:1.55;font-weight:600;letter-spacing:.02em}
+.topic-tag--stats{color:#24566b;background:#e5eef1}
+.topic-tag--finance{color:#655278;background:#f0eaf3}
+.topic-tag--healthcare{color:#35664b;background:#e6efe8}
+.topic-tag--om{color:#795425;background:#f5ecdd}
+[data-theme=dark] .topic-tag--stats{color:#b2d8e6;background:#293f49}
+[data-theme=dark] .topic-tag--finance{color:#d8c6e6;background:#3d3449}
+[data-theme=dark] .topic-tag--healthcare{color:#b7dbc2;background:#2b4034}
+[data-theme=dark] .topic-tag--om{color:#ead1a9;background:#493c2c}
+
 
 .research-row{padding:22px 0}
 .project-highlights{margin-top:31px;padding-top:24px;border-top:1px solid var(--line)}
