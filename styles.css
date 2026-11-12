@@ -48,7 +48,6 @@ h1{font-family:"Playfair Display",Georgia,serif;font-size:56px;font-weight:400;l
 .profile-portrait{display:block;width:200px;height:200px;object-fit:cover;object-position:center;background:var(--portrait);border:2px solid var(--accent);border-radius:50%;box-shadow:0 8px 32px rgba(49,94,113,.14);animation:portrait-float 4s ease-in-out infinite}
 @keyframes portrait-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 .profile-caption{display:flex;flex-direction:column;font-size:12px;line-height:1.7;gap:4px;padding-top:10px;color:var(--muted);text-align:center}
-.cv-note{font-size:11px;letter-spacing:.01em}
 .location{display:flex;align-items:center;justify-content:center;gap:5px;margin-top:6px;font-size:12px}
 .location svg{width:14px;height:14px}
 .content-section{margin-top:54px}
