@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://haibeizhao-laura.github.io/sitemap.xml
+Sitemap: https://haibeizhao.com/sitemap.xml
