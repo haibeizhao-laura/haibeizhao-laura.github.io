@@ -76,6 +76,7 @@ h3,h4{font-size:17px;line-height:1.5;font-weight:600;margin:0 0 5px;letter-spaci
 .timeline-row .institution{color:var(--text)}
 .timeline-row .role-meta{font-size:12px;margin-top:3px}
 .timeline-row p.experience-detail{margin-top:12px}
+.timeline-row p.research-detail{margin-top:12px}
 .timeline-row p.investment-update{margin-top:14px;border-left:2px solid var(--line);padding-left:14px}
 .investment-update-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:4px}
 .investment-update-label{display:block;color:var(--accent);font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
