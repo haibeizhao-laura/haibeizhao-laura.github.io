@@ -55,12 +55,6 @@ h1{font-family:"Playfair Display",Georgia,serif;font-size:56px;font-weight:400;l
 h2{font-size:27px;line-height:1.35;font-weight:450;letter-spacing:-.65px;margin:0}
 .section-label{color:var(--muted);font-size:9px;letter-spacing:1.2px;text-align:right}
 
-.news .section-heading{margin-bottom:0}
-.news-list{list-style:none;display:grid;gap:16px;margin:22px 0 0;padding:0;max-height:260px;overflow-y:auto;scrollbar-width:thin}
-.news-list:empty{display:none}
-.news-item{display:grid;grid-template-columns:80px minmax(0,1fr);gap:16px;align-items:baseline}
-.news-date{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;color:var(--muted);white-space:nowrap}
-.news-content{margin:0;border-left:2px solid var(--line);padding-left:16px;font-size:14px;line-height:1.65;color:var(--muted)}
 
 .focus-list{margin:0;padding-left:21px;max-width:900px;font-size:15px;line-height:1.85;color:var(--muted)}
 .focus-list li{padding-left:5px}
@@ -81,7 +75,9 @@ h3,h4{font-size:17px;line-height:1.5;font-weight:600;margin:0 0 5px;letter-spaci
 .timeline-row p{font-size:14px;line-height:1.75;margin:0;color:var(--muted)}
 .timeline-row .institution{color:var(--text)}
 .timeline-row .role-meta{font-size:12px;margin-top:3px}
-.timeline-row .experience-note{font-size:12px;margin-top:5px}
+.timeline-row p.experience-detail{margin-top:12px}
+.timeline-row p.investment-update{margin-top:14px;border-left:2px solid var(--line);padding-left:14px}
+.investment-update-label{display:block;margin-bottom:2px;color:var(--accent);font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
 .entry-heading{display:flex;align-items:baseline;flex-wrap:wrap;column-gap:12px;row-gap:3px;margin-bottom:5px}
 .entry-heading h3{margin:0}
 .topic-tags{display:inline-flex;align-items:center;flex-wrap:wrap;gap:5px;list-style:none;margin:0;padding:0}
@@ -118,7 +114,6 @@ h3,h4{font-size:17px;line-height:1.5;font-weight:600;margin:0 0 5px;letter-spaci
 @media(max-width:580px){html{scroll-padding-top:90px}.header-inner{padding:0 22px}.header-controls{gap:13px}.theme-toggle{border:0;padding:0;width:36px}.page{padding:33px 22px 0}.eyebrow{font-size:8px;letter-spacing:1.1px;margin-bottom:16px}h1{font-size:clamp(24px,6.8vw,38px);letter-spacing:normal}.intro-layout{grid-template-columns:1fr;gap:27px;margin-top:26px}.profile{position:static;width:auto;grid-row:1;display:flex;flex-direction:column;align-items:center;gap:0}.profile-portrait{width:116px;height:116px}.profile .social-links{margin:10px 0 0}.profile-caption{padding:6px 0 0;font-size:11px;gap:3px;text-align:center}.location{font-size:10px;gap:3px;margin-top:5px}.location svg{width:11px;height:11px}.biography{font-size:15px;line-height:1.8}.biography p{margin-bottom:17px}.content-section{margin-top:40px}.section-heading{padding-bottom:11px;margin-bottom:18px}.section-label{display:none}h2{font-size:24px}.work-row{grid-template-columns:1fr;gap:8px;padding:21px 0}.work-category{padding:0;font-size:8px}.work-row p,.community-row p,.education-row p{font-size:13px}h3,h4{font-size:16px}.timeline-row{grid-template-columns:1fr;gap:8px;padding:20px 0}.timeline-row .date br{display:none}.timeline-row p{font-size:13px}.project-highlights{margin-top:22px}.subsection-heading{font-size:20px}.education-mark{display:none}.community-row{grid-template-columns:83px minmax(0,1fr);gap:15px}.date{font-size:10px}.community-row h3{font-size:15px}.site-footer>div{padding:21px 22px}}
 /* The single About link represents this page at every viewport width. */
 @media(max-width:760px){nav{position:static;display:flex;flex-direction:row;align-items:center;gap:0;padding:0;background:none;border:0}nav a{font-size:14px;padding:20px 0;font-weight:400}nav a[aria-current]:after{display:block;bottom:12px}.header-controls{gap:13px}}
-@media(max-width:580px){.news-list{max-height:none;overflow:visible}.news-item{grid-template-columns:70px minmax(0,1fr);gap:12px}.news-content{padding-left:12px}}
 
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.profile-portrait{animation:none}.entry-disclosure summary svg{transition:none}}
 @media print{.site-header,.site-footer,.social-links,.section-link{display:none}body{background:white;color:black;font-size:12px}.page{max-width:none;padding:0}.content-section{break-inside:avoid;margin-top:24px}.profile{display:none}.intro-layout{display:block}.profile-portrait{display:none}a{color:inherit}h1{font-size:35px}.section-label{display:none}}
